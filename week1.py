@@ -30,7 +30,7 @@ print(myTuple)
 
 '''Task D
 Write a Python program to test whether
-a number is within 100 of 1000 or 2000
+a number is within 100 of 1000 or 2000.
 (between 900 and 1100 or between 1900 and 2100 inclusive)
 '''
 

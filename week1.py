@@ -31,12 +31,14 @@ print(myTuple)
 '''Task D
 Write a Python program to test whether
 a number is within 100 of 1000 or 2000
+(between 900 and 1100 or between 1900 and 2100 inclusive)
 '''
 
-myNumbers = [100,1000,2000]
 theNumber = int(input("Enter an integer number:"))
-if theNumber in myNumbers:
-    print("Yes! You guessed it!")
+if(theNumber >= 900 and theNumber <= 1100) or (theNumber >= 1900 and theNumber <= 2100):
+    print("Yes!")
+else:
+    print("No...")
 
 '''Task E
 Write a Python program to check whether
